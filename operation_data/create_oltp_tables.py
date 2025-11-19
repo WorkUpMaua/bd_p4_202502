@@ -77,7 +77,7 @@ def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--csv", type=str, default="", help="Caminho do CSV local")
-    parser.add_argument("--schema-sql", type=str, default="01_schema.sql", help="Arquivo SQL de criação de tabelas")
+    parser.add_argument("--schema-sql", type=str, default="schema_operational_data.sql", help="Arquivo SQL de criação de tabelas")
     parser.add_argument("--staging-table", type=str, default="sales_raw")
     parser.add_argument("--no-download", action="store_true", help="Não usar Kaggle; exige --csv")
     args = parser.parse_args()
@@ -116,7 +116,7 @@ def main():
         if not csv_path.exists():
             raise SystemExit(f"CSV não encontrado: {csv_path}")
 
-    sql_path = Path(args.schema_sql)
+    sql_path = Path("schemas/" + args.schema_sql)
     if not sql_path.exists():
         raise SystemExit(f"Arquivo SQL não encontrado: {sql_path}")
     execute_sql_file(engine, sql_path)
