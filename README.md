@@ -54,9 +54,9 @@ Para importar o dataset utilizado, basta utilizar o script operation_data/create
 
 Será necessário algumas informações presentes no arquivo .env para funcionar sem nenhuma flag, como:
 
-DATABASE_URL -> Endpoint do banco de dados PostgreSQL
+DATABASE_URL -> Endpoint do banco de dados PostgreSQL<br>
 KAGGLE_DATASET -> Nesse datamart, será o dataset <strong>rohitsahoo/sales-forecasting</strong><br>
-KAGGLE_USERNAME -> Username do Kaggle, para utilização da API
+KAGGLE_USERNAME -> Username do Kaggle, para utilização da API<br>
 KAGGLE_KEY -> Chave de API da Kaggle
 
 Além disso, será necessário ativar o Ambiente Virtual do Python e baixar as dependências:
