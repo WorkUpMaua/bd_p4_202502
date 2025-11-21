@@ -93,7 +93,7 @@ Dessa maneira, o script irá utilizar o arquivo do dataset para criar a tabela s
 
 ## Entrega 3 — Modelo Lógico-Relacional das tabelas operacionais
 
-![Diagrama Lógico Relacional OLTP](./docs/oltp_DER.png)
+![Diagrama Lógico Relacional OLTP](https://raw.githubusercontent.com/WorkUpMaua/bd_p4_202502/refs/heads/main/docs/oltp_DER.png)
 
 ---
 
@@ -109,7 +109,7 @@ python datamart/create_dimension_tables.py
 
 Diagrama lógico relacional:
 
-![Diagrama Lógico Relacional DW](./docs/dw_DER.jpeg)
+![Diagrama Lógico Relacional DW](https://raw.githubusercontent.com/WorkUpMaua/bd_p4_202502/refs/heads/main/docs/dw_DER.jpeg)
 
 ---
 
@@ -215,3 +215,11 @@ Calcula:
 ## Entrega 7 — Visualização dos dados em Power BI
 
 O relatório de visualização do datamart está disponível no arquivo AtividadeBD.pbix
+
+## Integrantes
+
+- [Lucas Milani Thomsen Galhardo](https://github.com/LucasKiller)    | 22.00818-7   
+- [Lucas Olivares Borges da Silva](https://github.com/lvcasolivares) | 22.00889-6
+- [Luis Gustavo Gonçalves Machado](https://github.com/luisgmachado)  | 21.00322-0
+- [Tiago Tadeu de Azevedo](https://github.com/tiagooazevedo)         | 22.00856-0
+- [Victor Augusto de Gasperi](https://github.com/VictorGasperi)      | 22.00765-2 
