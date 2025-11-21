@@ -1,7 +1,0 @@
-Cliente = ( id_cliente (PK), customer_id (UK), customer_name, segment, country, city, state, postal_code, region )
-
-Produto = ( id_produto (PK), product_id (UK), product_name, category, sub_category )
-
-Pedido = ( id_pedido (PK), order_id (UK), id_cliente (FK)(not null), order_date (not null), ship_date, ship_mode, created_at )
-
-Pedido_Item = ( id_item (PK), id_pedido (FK)(not null), id_produto (FK)(not null), valor_total (not null) )

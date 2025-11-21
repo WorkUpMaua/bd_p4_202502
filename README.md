@@ -93,7 +93,7 @@ Dessa maneira, o script irá utilizar o arquivo do dataset para criar a tabela s
 
 ## Entrega 3 — Modelo Lógico-Relacional das tabelas operacionais
 
-![Diagrama Entidade-Relacionamento OLTP](./docs/oltp_DER.png)
+![Diagrama Lógico Relacional OLTP](./docs/oltp_DER.png)
 
 ---
 
@@ -106,6 +106,10 @@ Basta executar o script conforme o comando abaixo, e serão criadas dentro do sc
 ```
 python datamart/create_dimension_tables.py
 ```
+
+Diagrama lógico relacional:
+
+![Diagrama Lógico Relacional DW](./docs/dw_DER.jpeg)
 
 ---
 
@@ -210,3 +214,4 @@ Calcula:
 
 ## Entrega 7 — Visualização dos dados em Power BI
 
+O relatório de visualização do datamart está disponível no arquivo AtividadeBD.pbix
